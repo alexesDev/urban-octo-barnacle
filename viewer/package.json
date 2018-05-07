@@ -1,0 +1,13 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env API_URL=http://localhost:4000 parcel index.html"
+  },
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "dependencies": {
+    "cross-env": "^5.1.4",
+    "parcel-bundler": "^1.8.1"
+  }
+}
